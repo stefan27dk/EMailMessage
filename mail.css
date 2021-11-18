@@ -1,0 +1,88 @@
+.msg-container 
+{
+    width: 100%;
+    /* background-color: red; */
+    display:flexbox;
+}
+
+.msg-header 
+{
+  width: 100%;
+  display:flex;
+  flex-direction: column;
+}
+
+.msg-body 
+{
+  display: flexbox;
+  padding:10px;
+}
+
+
+.line
+{
+ border-top: none;
+ border-bottom: 2px solid grey;
+}
+
+
+.logo 
+{
+ margin:5px auto 5px auto ;
+ width: 200px;
+ height:50;
+}
+
+
+ 
+
+.msg-main-title 
+{
+    width:100%;
+    font-size: min(max(15px, 2vw),25px);
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:5px auto 5px auto ;
+    text-align: center;
+}
+
+
+
+
+.msg-subscription-title 
+{
+    font-size: min(max(18px, 2vw),25px);
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:5px auto 5px auto ;
+    color: blue;
+    text-decoration: underline;
+}
+
+
+
+.msg-subscription-props
+{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: min(max(14px, 2vw),18px);
+}
+
+
+.msg-send-all-button
+{
+    margin:10px;
+    padding:10px;
+    color:white;
+    border: 1px solid rgb(142, 194, 255);
+    border-radius: 5px;
+    background-color: rgb(0, 119, 255);
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.msg-send-all-button:hover
+{
+  background-color:rgb(0, 68, 255);
+  color:rgb(0, 255, 191); 
+}
